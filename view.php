@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Nate's Class</title>
+	<?php
+		$page = $_GET['page'];
+		echo "<title>" . $page . "</title>"
+ ?>
 	<meta name="author" content="Nate Moore">
-	
+
 	<meta charset="UTF-8">
 	<meta name="description" content="Lesson ideas inspired by the web">
 	<meta name="keywords" content="teaching,school,education,lessons">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
+
 	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="alternate style sheet" type="text/css" href="css/print.css" title="Printable">
@@ -61,9 +64,7 @@
 			'coding',
 			'other'
 			);
-						
-			$page = $_GET['page'];
-						
+
 			if(in_array($page, $ok_pages)) {
 				@ require_once $page . '.php';
 				}
@@ -84,7 +85,7 @@
 <script>
 	var coll = document.getElementsByClassName("collapsible");
 	var i;
-	
+
 	for (i = 0; i < coll.length; i++) {
 		coll[i].addEventListener("click", function() {
 			this.classList.toggle("active");
