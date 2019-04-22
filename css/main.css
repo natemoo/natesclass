@@ -1,0 +1,171 @@
+/*
+light purple color #8e7cc3
+dark purple color #674ea7
+*/
+
+/*Page layout*/
+body {
+	margin-right:5%;
+	margin-left:5%;
+	font-family:sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight:normal;
+}
+
+h1 {
+	text-align:center;
+}
+
+a {
+	text-decoration:none;
+	color:#000000;
+}
+
+a:hover {
+	cursor:pointer;
+	color:#674ea7;
+}
+
+a:active {
+	color:#8e7cc3;
+}
+
+a:visited {
+	color:#808080;
+}
+
+/*Header*/
+header {
+	margin:auto;
+	width:100%
+}
+
+.topnav {
+	background-color:#FFFFFF;
+	width:100%;
+	overflow:auto;
+	display:flex;
+	justify-content:space-between;
+	align-items:flex-end;
+	font-size:1em;
+	color:#999999;
+	border-bottom:1px solid #999999;
+	font-family:'Orbitron',sans-serif;
+
+}
+
+.topnavimg {
+	width:200px;
+}
+
+.ncicon {
+	width:100%;
+}
+
+.topnav a {
+	width:17%;
+	height:100%;
+	text-align:center;
+	display:inline;
+}
+
+.topnav a:hover {
+	border-bottom:3px solid #999999AA;	
+}
+
+#mobileicon {
+	display:hidden;
+}
+
+/*Links Sections*/
+.links ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+.links li {
+	width:100%;
+	border-bottom:1px solid black;
+
+}
+
+/*Footer*/
+
+footer {
+	color:#FFFFFF;
+	background-color:#999999;
+	width:100%;
+	height:100px;
+	text-align:center;
+	font-family:'Orbitron',sans-serif;
+	font-size:.75em;
+}
+
+.footermid {
+	width:50%;
+}
+
+.footerleft {
+	padding:5px;
+}
+
+.footerright {
+	padding:5px;
+}
+
+/*Collapsible menus*/
+.collapsible {
+}
+
+.collapsible:hover {
+	color:#674ea7;
+	cursor:pointer;
+}
+
+.content {
+	padding:0 18px;
+	overflow: hidden;
+	background-color:grey;
+	max-height: 0;
+	transition: max-height 0.2s ease-out;
+}
+
+/*Old plus minus button
+ .collapsible:after {
+	content:'\02795';
+	font-size:1em;
+	color:black;
+	margin-left:5px;
+}
+
+.collapsible:hover {
+	background-color:grey;
+}
+
+.active:after {
+	content:'\2796';
+}*/
+
+/*Media Queries*/
+@media only screen and (max-width: 500px); {
+	#mobileicon{display:block;}
+	#desktopicon{display:hidden;}
+}
+
+@media only screen and (max-width: 900px) {
+	.gear {display:none;}
+	.navword {display:inline-block; padding:1em; background:#8e7cc3; color:#ffffff;}
+	.navword a {color:#ffffff;}
+}
+
+@media only screen and (max-width: 500px) and (orientation: landscape) {
+	#title{float:left;}
+	#nav{float:left;}
+}
+
+@media only print {
+
+}
