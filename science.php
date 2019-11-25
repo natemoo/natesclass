@@ -71,7 +71,7 @@
 	<?php
 	require_once('Includes/dbconnect.php');
 
-	$query = 'SELECT * FROM links WHERE Type="Link" and Category="Science" ORDER BY Subcategory';
+	$query = 'SELECT * FROM links WHERE Category="Science" ORDER BY Subcategory';
 
 	$result = mysqli_query($connection,$query);
 

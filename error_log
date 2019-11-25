@@ -1,0 +1,10 @@
+[14-Aug-2018 19:06:42 UTC] PHP Parse error:  syntax error, unexpected '$heading' (T_VARIABLE), expecting ',' or ';' in /home/q28rh7o7mg8g/public_html/science.php on line 26
+[14-Aug-2018 19:06:50 UTC] PHP Parse error:  syntax error, unexpected '$heading' (T_VARIABLE), expecting ',' or ';' in /home/q28rh7o7mg8g/public_html/science.php on line 26
+[14-Aug-2018 19:07:01 UTC] PHP Parse error:  syntax error, unexpected '$heading' (T_VARIABLE), expecting ',' or ';' in /home/q28rh7o7mg8g/public_html/science.php on line 26
+[15-Sep-2018 15:06:05 UTC] PHP Notice:  Undefined index: page in /home/q28rh7o7mg8g/public_html/view.php on line 62
+[19-Sep-2018 15:45:26 UTC] PHP Notice:  Undefined index: page in /home/q28rh7o7mg8g/public_html/view.php on line 62
+[14-Nov-2018 16:58:25 UTC] PHP Notice:  Undefined index: page in /home/q28rh7o7mg8g/public_html/view.php on line 62
+[31-Dec-2018 02:01:29 UTC] PHP Parse error:  syntax error, unexpected ''<a href="'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/q28rh7o7mg8g/public_html/science.php on line 90
+[31-Dec-2018 02:01:32 UTC] PHP Parse error:  syntax error, unexpected ''<a href="'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/q28rh7o7mg8g/public_html/science.php on line 90
+[31-Dec-2018 02:02:16 UTC] PHP Parse error:  syntax error, unexpected ''<div class="content"><p>'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/q28rh7o7mg8g/public_html/science.php on line 91
+[31-Dec-2018 02:02:19 UTC] PHP Parse error:  syntax error, unexpected ''<div class="content"><p>'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/q28rh7o7mg8g/public_html/science.php on line 91
